@@ -1,0 +1,412 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body header{
+    background-color: #88b52f;
+    padding: 12px;
+    font-size: 20px;
+
+
+}
+body header span b{
+    align-items: center;
+    padding-left: 35%;
+    color: rgb(249, 251, 252);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+body header span {
+    color: azure;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+.logo{
+    padding:20px;
+    align-items: center;
+    display: flex;
+    
+}
+
+#logo1{
+    height: 55px;
+    padding-left: 120px;
+}
+.help{
+    margin-left: 70px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #123d07;
+
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(249, 251, 252);
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    padding-left:80px;
+}
+.search-input{
+    width: 100%;
+    font-size: 0.8rem;
+    padding-left: 20px;
+
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:#123d07;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #fafdfd;
+}
+.user{
+    padding-left: 30px;
+    font-size: 1.3rem;
+
+}
+.cart{
+    padding-left: 19px;
+    font-size: 1.3rem;
+
+}
+
+ul div{
+    background: #f7f7f4;
+    padding: 15px;
+    text-align: center;
+}
+ul div li{
+    display: inline;
+    padding: 30px;
+    
+}
+ul div li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(68, 61, 61);
+    
+}
+    
+#shop{
+    border: none;
+    background: #f7f7f4;
+}
+.body{
+    height: 500vh;
+}
+.img{
+  height: 600px;
+  width: 100%;
+  align-items: flex-end;
+  background-size: cover;
+
+}
+.bg{
+   position: relative;
+
+}
+.bgcontent{
+    position:absolute;
+    top:50%;
+    left:17%;
+    transform:translate(-50%,-50%);
+    font-size: 2rem; 
+    text-align: center;
+    
+}
+#b{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#c{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    background:none;
+    font-size: 1rem;
+    border: none;
+    margin-bottom: 15px;
+    color:#123d07;
+
+}
+.c1{
+    border:1px solid rgb(5, 27, 5);
+    margin-top: 25px;
+}
+#img1{
+    padding-left: 75px;
+    padding-top: 40px;
+    width: 90%;
+    height: 100px;
+}
+.img234{
+    display: flex;
+    padding-left: 75px;
+    padding-top: 20px;
+    width: 90%;
+    justify-content:space-between;
+    
+}
+.i2{
+    position: relative;
+}
+.i3{
+    position:absolute;
+    top:20%;
+    left:0%;
+    transform:translate(25%,-35%);
+    font-size: 1.7rem; 
+    text-align: center;
+    color:#fcfcfc;
+}
+.i6{
+    position: relative;
+}
+.i7{
+    position:absolute;
+    top:140%;
+    left:10%;
+    transform:translate(325%,-35%);
+    font-size: 1.4rem; 
+    text-align: center;
+   
+    color: white;
+  margin-top: 108px;
+}
+.pre{
+    color: #164105;
+}
+.i4{
+    position: relative;
+}
+.i5{
+    position:absolute;
+    top:30%;
+    left:0%;
+    transform:translate(140%,-35%);
+    font-size: 1.3rem;
+    text-align: center;
+    color:#164105;
+}
+.i{
+    position: relative;
+}
+.ii{
+    position:absolute;
+    top:120%;
+    left:50%;
+    transform:translate(-55%,-35%);
+    font-size: 1.3rem; 
+    text-align: center;
+    color: #164105;
+    margin-top: 51px;
+}
+
+.boxgourmet{
+    color:#164105;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img2{
+     height: 41vh;
+     width: 100%;
+    
+
+}
+.img3{
+      height:41vh;
+      width: 100%;
+      
+}
+.img4{
+    height:41vh;
+    width:100%;
+    
+}
+.write{
+    padding-left: 75px;
+    padding-top: 25px;
+    width: 90%;
+    height: 130px;
+    gap: 15px;
+    display: inline-flex;
+        
+}
+.green{
+    background-color: #123d07;
+    width: 35%;
+    height: 130px;
+    padding-top: 5px;
+
+}
+.greencontent{
+    color: white;
+    font-size: 25px;
+    border: 2px solid rgb(247, 247, 247);
+    text-align: center;
+    height: 100px;
+    margin: 15px;
+
+}
+.shop{
+    border:none solid rgb(251, 255, 251);
+    background-color:none;
+    color: white;
+    font-size: x-small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 20px;
+    }
+.blank{
+    padding-top: 60px;
+    background: #ffffff;
+    
+} 
+.Most1{
+   
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: large;
+    background: #edeae7; 
+    
+    
+    
+}
+.pop{
+    padding-bottom: 30px;
+    margin-left: 48px;
+}
+.img5{
+    height: 45vh;
+    padding-top: px;
+    
+}
+.b{
+    display: inline;
+    
+}
+.butt{
+    height:40px;
+    width: 300px;
+    background-color:#123d07;
+    border-radius: 3px;
+    color: azure;
+
+}
+.a1{
+    text-align: center;
+    background-color:azure;
+
+    padding-bottom: 10px;
+    margin: auto;    
+   
+
+   
+}
+.main{
+    display: flex;
+}
+.container{
+    padding-top: 60px;
+}
+.container1{
+    background-color: #edeae7 ;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+#para{
+    background-color: blue;
+    margin-left: 552px;
+  margin-right: 632px;
+
+}
+
+
+, nav, section, footer {
+    margin: 20px;
+  }
+
+  h1 {
+    color: #333;
+  }
+
+  nav ul, section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav ul li, section ul li {
+    margin-bottom: 10px;
+  }
+
+  nav ul li a, section ul li a {
+    text-decoration: none;
+    color: #666;
+  }
+
+  footer {
+    text-align: center;
+    color: #999;
+  }
+
+  section {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 76px;
+  }
+
+
+  section:last-child {
+    margin-right: 0;
+  }
+  .top_margin_section{
+    margin-top: 24px;
+  }
+
+  .image{
+    margin-left: 72px;
+  }
+.image img{
+    margin-right: 20px;
+}
+  #Decoration{
+    font-size: 34px;
+    font-weight: 800;
+    color: #88b52f;
+  }
+
+  .cont{
+    margin-left: 76px;
+  }
+
+  
+
+  /* soscial media tags  */
+
+  .social-media-tags {
+    text-align: center; /* Align the tags in the center */
+  }
+
+  .social-media-link {
+    display: inline-block; /* Display tags in a single line */
+    margin: 0 10px; /* Add some margin between tags */
+  }
+
+  .social-media-link i {
+    font-size: 30px; /* Adjust the size of the icon */
+    color: #333; /* Set the color of the icon */
+  }
+  .social_media_tag{
+    margin-right: 0px;
+  }
+  
+
+
+  
